@@ -23,6 +23,16 @@ This list contains a list of tasks for you to do at home or during uni-hours.
     // ---> Write some code goes here which swaps the values <---
     cout << first << second // This should print b a
     ```
+    
+1. If you know that the gravitational field of the Moon is approximately 17% of that on the Earth, write a program that reads a person's weight on the earth and writes on the console the corresponding weight on the Moon.
+
+1. Write a program that reads a person's weight on the Moon and prints the corresponding weight on the Earth.
+
+1. Write a program that reads 3 numbers - a,b and h - sides and height of a trapezoid, and calculates its area.
+
+1. As you know, a power function is defined as f(x) = a*x^b, where a and b are real numbers.
+Write a program that reads two integer numbers - a and b, and prints on the console the derivative of the given function
+
 1. Write a program which asks the user for a **5-digit** number and then prints:
     - the same number in binary
     - the same number in hex
@@ -57,6 +67,8 @@ This list contains a list of tasks for you to do at home or during uni-hours.
     | Example input | Example output | Explanation |
     | ------------- | -------------- | ----------- |
     | 21 08 21 12 | 122 | there are 122 days between August, the 21st and December, the 21st. |
+
+1. Write a program which reads a month( number from 1 to 12 ) and tells how many days are there in this month.(assume a leap year)
 
 1. Write a program which asks the user to enter a day, month and year post 1900. Your program should determine whether the entered date is valid or not.
     | Example input | Example output |
