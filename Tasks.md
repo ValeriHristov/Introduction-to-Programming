@@ -64,6 +64,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
     1. Power - If the user selects power, your program should ask for two other numbers and print '[first number] to the power of [second number] is [the first number to the power of the second]'
 
 1. Write a program which asks the user to enter 2 days of the year and then computes the number of days between them.
+    
     | Example input | Example output | Explanation |
     | ------------- | -------------- | ----------- |
     | 21 08 21 12 | 122 | there are 122 days between August, the 21st and December, the 21st. |
@@ -71,12 +72,14 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
 1. Write a program which reads a month( number from 1 to 12 ) and tells how many days are there in this month.(assume a leap year)
 
 1. Write a program which asks the user to enter a day, month and year post 1900. Your program should determine whether the entered date is valid or not.
+    
     | Example input | Example output |
     | ------------- | -------------|
     | 21 08 1993 | Valid! |
     | 31 02 1992 | Invalid! |
 
 1. Write a program which asks the user to enter a **2-digit** number and then prints its English name.
+    
     | Example input | Example output |
     | ------------- | -------------- |
     | 67 | sixty-seven |
@@ -96,6 +99,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
     - the same number in oct
 1. Write a program which asks the user for a number and then prints its digits in reverse order (e.g. `1234560` becomes `0654321`).
 1. Write a program which asks the user for a number and then prints its roman numeral.
+    
     | Example input | Example output |
     | ------------- | -------------- |
     | 8 | VIII |
@@ -104,6 +108,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
 1. Write a program which asks the user for a number `n` and then prints whether `n` is a prime number or not.
 1. Write a program which asks the user for a number `n` and then prints all prime numbers smaller than `n`.
 1. Write a program which asks the user for a number `n` and then prints all prime factors of `n`
+    
     | Example input | Example output |
     | ------------- | -------------- |
     | 65780 | 2.2.5.11.13.23 |
@@ -113,6 +118,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
 ## Arrays
 
 1. Write a program which asks the user to enter `n` - the number of numbers he will enter. Then the program should ask for `n` numbers and print the contents of the array in reverse.
+    
     | Example input | Example output |
     | ------------- | -------------- |
     | 3 1 2 3 | 3 2 1 |
