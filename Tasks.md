@@ -46,7 +46,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
 
 1. Write a program which asks the user for a number `n` and prints whether `n` is a leap year .
 
-1. Write a program which asks the user for 5 numbers - `a`, `b`, `c`, `x1`, `x2` and prints the maximum value of the quadratic function `f(x) = ax^2 + bx + c` in the range `[x1; x2]`.
+1. Write a program which asks the user for 5 numbers - `a`, `b`, `c`, `p`, `q` and prints the maximum value of the quadratic function `f(x) = ax^2 + bx + c` in the range `[p; q]`.
 
 1. Write a program that asks the user about how many points he scored on his Calculus exam and print the corresponding grade according to the following table:
 
@@ -58,7 +58,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
     | 61 <= points <=  80 | 5! If only you didn't go drinking the     night before the exam...  |
     | 81 <= points <= 100 | 6! There's no way you did this by yourself, how did you cheat?  |
 
-1. Write a program which asks the user for a command (a number between 1 and 4). Available commands are:
+1. Write a program which asks the user for a command (a number between 1 and 3). Available commands are:
     1. Addition - If the user selects addition, your program should ask for two other numbers and print 'Their sum is: [sum of the numbers]'
     1. Multiplication - If the user selects multiplication, your program should ask for two other numbers and print 'Their multiple is: [sum of the numbers]'
     1. Power - If the user selects power, your program should ask for two other numbers and print '[first number] to the power of [second number] is [the first number to the power of the second]'
