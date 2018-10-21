@@ -86,9 +86,24 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
 
 1. Write a program which asks the user to enter 3 numbers - the sides of a triangle and prints whether the triangle is obtuse, right or acute.
 
+1. Write a program which asks the user to enter 3 numbers - the sides of a triangle and prints whether such a triangle can exists.
+
 1. Write a program which asks the user to enter 2 numbers - coordinates of some 2D point and prints whether that point is contained in the:
     - unit circle
     - unit square
+
+1. Write a program which asks the user to enter 3 numbers and prints them in ascending order.
+
+1. Write a program which asks the user to enter 5 numbers and prints the biggest one.
+
+1. Write a program which asks the user to enter a character and prints whether it is a letter, a digit or a special character.
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | a | letter |
+    | 9 | digit |
+    | - | special char |
+
 
 ## Loops (for/while)
 
