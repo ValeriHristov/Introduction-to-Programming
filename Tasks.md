@@ -23,15 +23,14 @@ This list contains a list of tasks for you to do at home or during uni-hours.
     // ---> Write some code goes here which swaps the values <---
     cout << first << second // This should print b a
     ```
-    
+
 1. If you know that the gravitational field of the Moon is approximately 17% of that on the Earth, write a program that reads a person's weight on the earth and writes on the console the corresponding weight on the Moon.
 
 1. Write a program that reads a person's weight on the Moon and prints the corresponding weight on the Earth.
 
 1. Write a program that reads 3 numbers - a,b and h - sides and height of a trapezoid, and calculates its area.
 
-1. As you know, a power function is defined as f(x) = a*x^b, where a and b are real numbers.
-Write a program that reads two integer numbers - a and b, and prints on the console the derivative of the given function
+1. As you know, a power function is defined as f(x) = a*x^b, where a and b are real numbers. Write a program that reads two integer numbers - a and b, and prints on the console the derivative of the given function
 
 1. Write a program which asks the user for a **5-digit** number and then prints:
     - the same number in binary
@@ -64,7 +63,7 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
     1. Power - If the user selects power, your program should ask for two other numbers and print '[first number] to the power of [second number] is [the first number to the power of the second]'
 
 1. Write a program which asks the user to enter 2 days of the year and then computes the number of days between them.
-    
+
     | Example input | Example output | Explanation |
     | ------------- | -------------- | ----------- |
     | 21 08 21 12 | 122 | there are 122 days between August, the 21st and December, the 21st. |
@@ -72,14 +71,14 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
 1. Write a program which reads a month( number from 1 to 12 ) and tells how many days are there in this month.(assume a leap year)
 
 1. Write a program which asks the user to enter a day, month and year post 1900. Your program should determine whether the entered date is valid or not.
-    
+
     | Example input | Example output |
     | ------------- | -------------|
     | 21 08 1993 | Valid! |
     | 31 02 1992 | Invalid! |
 
 1. Write a program which asks the user to enter a **2-digit** number and then prints its English name.
-    
+
     | Example input | Example output |
     | ------------- | -------------- |
     | 67 | sixty-seven |
@@ -104,36 +103,115 @@ Write a program that reads two integer numbers - a and b, and prints on the cons
     | 9 | digit |
     | - | special char |
 
+1. Write a poker-hand program. It should ask the user to enter 5 cards. The program must then tell the user what hand does he have (e.g. flush, quads, etc.).
+    - use 'S' for spades, 'C' for clubs, 'H' for hearts, 'D' for diamonds
+    - use the numbers between 2 and 14 for cards values (J=11, Q=12, K=13, A=14).
+    - If you don't know how poker hands work, find a short [tutorial here](https://www.cardplayer.com/rules-of-poker/hand-rankings).
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | C8 C7 C6 C5 C4     | straight flush |
+    | H11 D11 S11 C11 D7 | four of a kind |
+    | D3 C11 S8 H4 S2    | high card |
 
 ## Loops (for/while)
 
 1. Write a program which asks the user for a number `n` and prints the first `n` numbers of Fibonacci.
+
 1. Write a program which asks the user for a number and then prints:
     - the same number in binary
     - the same number in hex
     - the same number in oct
+
 1. Write a program which asks the user for a number and then prints its digits in reverse order (e.g. `1234560` becomes `0654321`).
+
 1. Write a program which asks the user for a number and then prints its roman numeral.
-    
+
     | Example input | Example output |
     | ------------- | -------------- |
     | 8 | VIII |
     | 95 | XCV |
+
 1. Write a program which asks the user to **think** of a number between 0 and 1024 and tries to guess it by asking questions like *'Is your number bigger than 512?'*, etc. How many steps would your program take in the worst case?
+
 1. Write a program which asks the user for a number `n` and then prints whether `n` is a prime number or not.
+
 1. Write a program which asks the user for a number `n` and then prints all prime numbers smaller than `n`.
+
 1. Write a program which asks the user for a number `n` and then prints all prime factors of `n`
-    
+
     | Example input | Example output |
     | ------------- | -------------- |
     | 65780 | 2.2.5.11.13.23 |
-1. TODO: Print numbers in specific order (spirally, diagonally, etc.)
-1. TODO: Print shapes of different size (i.e. trees).
+
+1. Write a program which asks the user for a number `n` and then prints a triangle with numbers with as many rows as `n`. Align all numbers in the triangle!
+    - For `n=4`, the output must be
+
+      ```
+        1
+        2 3
+        4 5 6
+        7 8 9 10
+      ```
+
+    - For `n=7`, the output must be (note how all columns are aligned!)
+
+      ```
+        1
+        2  3
+        4  5  6
+        7  8  9  10
+        11 12 13 14
+        14 15 16 17
+        18 19 20 21
+      ```
+
+1. Write a program which asks the user for an **odd** number `n` and then prints a Christmas tree as wide as `n`.
+    - For `n=5`, the output must be:
+
+      ```
+          *
+         ***
+        *****
+          *
+      ```
+    - For `n=7`, the output must be:
+
+      ```
+          *
+         ***
+        *****
+       *******
+          *
+      ```
+
+1. Write a program which asks the user for an **odd** number `n` and then prints a heart twice as wide as `n`.
+    - For `n=3`, the output must be:
+
+      ```
+       *   *
+      *** ***
+       *****
+        ***
+         *
+      ```
+    - For `n=5`, the output must be:
+
+      ```
+        *     *
+       ***   ***
+      ***** *****
+       *********
+        *******
+         *****
+          ***
+           *
+      ```
 
 ## Arrays
 
 1. Write a program which asks the user to enter `n` - the number of numbers he will enter. Then the program should ask for `n` numbers and print the contents of the array in reverse.
-    
+
     | Example input | Example output |
     | ------------- | -------------- |
     | 3 1 2 3 | 3 2 1 |
