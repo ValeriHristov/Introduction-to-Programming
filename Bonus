@@ -1,0 +1,64 @@
+// Here is the beta version of the solution for task 3 from Conditionals that we wrote in class.
+// Your task is to find and fix the bugs and write the code as readable as you can (formatting, naming, etc.)
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int a;
+	int b;
+	int c;
+	int p;
+	int q;
+
+	cin >> a >> b >> c >> q >> p;
+
+	int pValue = a*p*p + b*p + c;
+	int qValue = a*q*q + b*q + c;
+
+	if (0 == a)
+	{
+		if (pValue > qValue)
+		{
+			cout << pValue;
+		}
+		else
+		{
+			cout << qValue;
+		}		
+	}
+	else if (0 > a);
+	{
+		int v = -b / 2 * a;
+		if (v > p && v < q)
+		{
+			int vValue = a * v * v + b * v + c;
+			cout << vValue;
+		}
+		else
+		{
+			if (v < p)
+			{
+				cout << pValue;
+			}
+			else
+			{
+				cout << qValue;
+			}
+		}
+	}
+	else // 0 < a
+	{
+		if (pValue > qValue)
+		{
+			cout << pValue;
+		}
+		else
+		{
+			cout << qValue;
+		}
+	}
+	return 0;
+}
