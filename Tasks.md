@@ -150,7 +150,7 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 1. Write a program which asks the user for a number `n` and prints the first `n` numbers of Fibonacci.
 
-1. Write a program which asks the user for a number and then prints its digits in reverse order (e.g. `1234560` becomes `0654321`).
+1. Write a program which asks the user for a number and then prints its digits in reverse order (e.g. `1234560` becomes `654321`).
 
 1. Write a program which asks the user for a number `n` and then expects the user to enter exactly `n` more numbers. Print the sum of all numbers.
     - Example input:
