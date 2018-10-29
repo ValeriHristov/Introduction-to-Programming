@@ -275,6 +275,15 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 1. Harder task - write a program which asks the user to **think** of a number between 0 and 1024 and tries to guess it by asking questions like *'Is your number bigger than 512?'*, etc. Extra question: how many steps would your program take in the worst case?
 
+## Arrays
+
+1. Write a program which asks the user to enter `n` - the number of numbers he will enter. Then the program should ask for `n` numbers and print the contents of the array in reverse.
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | 3 1 2 3 | 3 2 1 |
+    | 5 5 15 0 25 -10 | -10 25 0 15 5 |
+
 1. Hardest task in this section - write a program which asks the user for a number `n` and prints a matrix of numbers with this many rows ***spirally***:
 
     - For `n=2`
@@ -292,15 +301,6 @@ This list contains a list of tasks for you to do at home or during uni-hours.
       11 16 15 6
       10 9  8  7
       ```
-
-## Arrays
-
-1. Write a program which asks the user to enter `n` - the number of numbers he will enter. Then the program should ask for `n` numbers and print the contents of the array in reverse.
-
-    | Example input | Example output |
-    | ------------- | -------------- |
-    | 3 1 2 3 | 3 2 1 |
-    | 5 5 15 0 25 -10 | -10 25 0 15 5 |
 
 1. TODO Reflexive, symmetric and transitive relations.
 1. TODO Print all subsets of a set.
