@@ -36,7 +36,7 @@ This list contains a list of tasks for you to do at home or during uni-hours.
     - the same number in binary
     - the same number in hex
     - the same number in oct
-1. Write a program which asks the user for a **5-digit** number and then prints its digits in reverse order (e.g. `12345` becomes `54321`).
+1. Write a program which asks the user for a **5-digit** number and then prints its digits in reverse order  
 1. Write a program which asks the user for three numbers `s`, `d` and `n` and prints the sum of the first `n` numbers of arithmetic progression with starting number `s` and difference `d`.
 
 ## Conditionals (if/switch)
@@ -85,7 +85,7 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 1. Write a program which asks the user to enter 3 numbers - the sides of a triangle and prints whether the triangle is obtuse, right or acute.
 
-1. Write a program which asks the user to enter 3 numbers - the sides of a triangle and prints whether such a triangle can exists.
+1. Write a program which asks the user to enter 3 numbers - the sides of a triangle and prints whether such a triangle can exist.
 
 1. Write a program which asks the user to enter 2 numbers - coordinates of some 2D point and prints whether that point is contained in the:
     - unit circle
@@ -308,6 +308,30 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 ## Functions and recursion
 
+1. Write a function that takes two numbers as parameters and returns their sum.
+1. Write a function that takes one number and returns its absolute value.
+1. Write a function that takes two numbers as parameters and returns the greater one.
+1. Write a function that takes two integer numbers and returns if they are equal.
+1. Write a function that takes three numbers - `a` , `b` and `epsilon`, and returns if the distance between `a` and `b` is less than `epsilon`.
+1. Write a function that takes two numbers - `a` and `b` and returns `a^b`.
+1. Write a function that takes one integer and returns it reversed. (e.g. `12345` becomes `54321`).
+1. Write a function that takes three numbers and returns the smallest one of them.
+1. Write a function that takes one number and returns if it is prime.
+1. Write a function that takes three numbers and returns if the smallest one of them is prime.
+1. Write a function that takes a char and returns if it is a digit.
+1. Write a function that takes a char and returns if it is a letter.
+1. Write a function that takes two bools and returns if they are both true.
+1. Write a function that takes two numbers and returns if the first is divisible by the second.
+1. Write a function that takes one integer `n` and returns the sum 1+2+...+(n-1)+n.
+1. Write a function that takes two numbers - `a` and `b`, and returns the root of the equation `ax + b = 0`.
+1. Write a function that takes four numbers - coordinates of two points in 2D - `x1`, `y1`, `x2`, `y2`, and returns the distance between `(x1,y1)` and `(x2,y2)`.
+1. Write a function that takes six numbers - coordinates of three points in 2D, and returns if they lie on a straight line.
+1. Write a function that takes tree numbers - coordinates of a vector in 3D, and returns the length of the vector.
+1. Write a function that takes one integer `n` and returns `n!`.
+1. Write a function that takes two integers - `n` and `k` and returns `n choose k`(binomial coefficient).
 1. Write a program which asks the user for a number `n` and prints the first `n` numbers of Fibonacci.
+1. Write a program which asks the user for a number `n` and prints the first `n` numbers of Tribonacci.
+
+
 1. TODO: Karatsuba multiplication
 1. TODO: GCD via Euclid
