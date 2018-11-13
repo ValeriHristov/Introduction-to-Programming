@@ -1,0 +1,26 @@
+// A function that reads from cin until it gets an integer in the required range.
+// Also handles invalid characters.
+
+int inputInt(int lowerBound, int upperBound)
+{
+	int num;
+
+	do
+	{
+		cout << "Input a num: "; cin >> num;
+		if (cin.fail())
+		{
+			cin.clear();
+			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		}
+		else
+		{
+			if ((num >= lowerBound) && (num <= upperBound))
+			{
+				break;
+			}
+		}
+	} while (true);
+
+	return num;
+}
