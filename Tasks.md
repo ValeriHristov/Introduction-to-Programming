@@ -335,3 +335,30 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 1. TODO: Karatsuba multiplication
 1. TODO: GCD via Euclid
+
+
+## Complex tasks
+1. Tisho wants to play [Bulls and cows](https://en.wikipedia.org/wiki/Bulls_and_Cows), but he is confused by the rules, so he needs ouр help. We have to write a program that reads two integer numbers `A` and `B` in the range \[0,9999\] from the console and prints back the number of bulls and cows for these numbers. Numbers smaller than 1000 we should pad with zeros, for example 19 should be interpreted as 0019.
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | 1001 2010| 1 2 |
+    | 0 1      | 3 0 |
+    | 9988 1234| 0 0 |
+    | 1010 1001| 2 2 |
+
+1. Tisho really enjoyed our help and he needs us again. Now he asked us to do the following:
+Given a number `A`- Tisho's suggestion for his opponent's number,`b`-number of bulls and `c`- number of cows, we have to print every number `N` that has `b` bulls and `c` cows with the number `A`.
+
+1. Strahil and Pesho really love hamburgers. And they have a game, which they play in rounds - they try to eat as much as they can. And since it is very hard to overeat, they can't remember how many burgers they ate, so they write the result in a single number `B` with the following format:
+The sum of the left digits of `B` gives the number of burgers Strahil ate, and the sum of the right digits gives the burger count for Pesho. For example 3489 means that Strahil ate 3 + 4 = 7 and Pesho ate 8 + 9 = 17.
+If the number `B` has odd number of digits, then the one in the middle is shared between them both. For example 324 means 3 + 2 = 5 for Strahil and 2 + 4 = 6 for Pesho.
+The number `B` will never be more than 9 digits long.
+Your task is to help them decide who is better and print who won the game and how much burgers he ate. If they have equal results, print that the result is even.
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | 1001 | Even       |
+    |  17  | Pesho 7    |
+    | 9988 | Strahil 18 |
+    | 578  | Pesho 15   |
