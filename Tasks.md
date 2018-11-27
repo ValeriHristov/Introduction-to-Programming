@@ -305,6 +305,18 @@ This list contains a list of tasks for you to do at home or during uni-hours.
     | ------------- | -------------- |
     | 4 1 20 4 100      | 100 |
     | 5 -7 -10 -6 -11 -3 | -3 |
+
+1. Write a program which asks the user to enter `n` - the amount of numbers he will enter. Then the program should ask for `n` numbers and determine if the given array is a *hacksaw*. We call a sequence of numbers `hacksaw` if the following is true:
+`a1 < a2 > a3 < a4 ... an` or `a1 > a2 < a3 > a4 ... an`.
+
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | 4 5 4| 1 |
+    | 5 4 5| 1 |
+    | 4 5 3 8 9 4| 0 |
+    | 1 2 1 2 1 2 1| 1 |
+    | 10 -200 3 4| 0 |
     
    
 1. Write a function which takes two arguments - an int array and its size, and prints all elements of the array on the console. 
