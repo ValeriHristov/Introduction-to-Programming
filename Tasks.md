@@ -339,29 +339,81 @@ This list contains a list of tasks for you to do at home or during uni-hours.
     | Example input | Example output |
     | ------------- | -------------- |
     | 4 1 20 4 100      | 1 20 |
-    | 10 1 7 10 15 -5 0 1 2 3 4 | -5 0 1 2 3 4 |
+    | 10 1 7 10 15 -5 0 1 2 3 4 | -5 0 1 2 3 4 |    
+    
 
-1. Hardest task in this section - write a program which asks the user for a number `n` and prints a matrix of numbers with this many rows ***spirally***:
+1. TODO Reflexive, symmetric and transitive relations.
+1. TODO Print all subsets of a set.
+1. TODO: Print whether a set is a subset of another set.
+    
 
-    - For `n=2`
+## Matrices
 
+1. Write a program which asks the user to enter n and k - the rows and columns count of a matrix. Then the program should ask for n*k numbers.
+
+1. Write a function which takes a matrix and prints it on the console in the appropriate format.
+
+1. Write a function which takes a matrix and prints it on the console transposed.
+
+1. Write a program which reads a matrix from the console, then prints the sum of each row.
+
+1. Write a program which reads a matrix from the console and prints the sum of the elements on the diagonal.
+
+1. Write a program which reads a matrix from the console and prints the average of each row.
+
+1. Write a program which reads a matrix from the console and prints the elements of the 2x2 square in it that has the maximum sum.
+Example:
+
+      ```    
+      1 2 3 -5 
+      2 7 9 11 
+      9 3 1 7  
       ```
-      1 2
-      4 3
-      ```
+    Results in  `9 11 1 7 `
+
+1. Write a program which asks the user for a number `n` and prints a matrix of numbers this this many rows as shown:
+
 
     - For `n=4` (note how all columns are aligned!)
 
+    a/ 
+     ```
+      1  5  9 13
+      2  6 10 14
+      3  7 11 15
+      4  8 12 16
+      ```
+    b/ 
+      ```
+      1  8  9 16
+      2  7 10 15
+      3  6 11 14
+      4  5 12 13
+      ```
+    
+    c/
+      ```
+      7 11 14 16
+      4  8 12 15
+      2  5  9 13
+      1  3  6 10
+      ```
+    
+    d/
       ```
       1  2  3  4
       12 13 14 5
       11 16 15 6
       10 9  8  7
       ```
+1. [Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) is a game for zero :confused: players and consists of a surface, devided in cells. Every cell is [dead or alive](https://www.youtube.com/watch?v=SRvCvsRp5ho). The game is played in turns. Every turn depends on the state of the game in the previous turn following these rules:
 
-1. TODO Reflexive, symmetric and transitive relations.
-1. TODO Print all subsets of a set.
-1. TODO: Print whether a set is a subset of another set.
+  - Every cell with less than two living neighours dies(of loneliness).
+  - Every living cell with more than three living neighbours dies(too crowded).
+  - Evey living cell with two or three living neighbours stays alive for the next turn.
+  - Every dead cell with exactly three living neighbours comes back to live.
+  
+  Your task is to simulate this game. The initial state of the surface should be hard-coded. On every turn the state of the     cells should be written to the console: 'X' for a living cell, ' ' for a dead cell. 
 
 ## Functions and recursion
 
@@ -414,7 +466,7 @@ The number `B` will never be more than 9 digits long.
 Your task is to help them decide who is better and print who won the game and how much burgers he ate. If they have equal results, print that the result is even.
 
     | Example input | Example output |
-    | ------------- | -------------- |
+    | ------------ | -------------- |
     | 1001 | Even       |
     |  17  | Pesho 7    |
     | 9988 | Strahil 18 |
