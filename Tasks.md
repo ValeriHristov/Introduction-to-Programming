@@ -414,8 +414,46 @@ Example:
   - Every dead cell with exactly three living neighbours comes back to live.
   
   Your task is to simulate this game. The initial state of the surface should be hard-coded. On every turn the state of the     cells should be written to the console: 'X' for a living cell, ' ' for a dead cell.
- 
-1.TODO: Islands
+
+1. How many `islands and peninsulas` are there on the "map"?
+
+You are given a numbers `n`, `m` and a `nxm` matrix that consists of numbers `0 through 9`. Your task is to create a program that says `how many` islands and peninsulas are there. These are the 'rules':
+
+  - 0 is water
+  - 1-9 is the height of the ground
+  - Islands are pieces of land connected by different grounds
+   Example of an island:
+   ```
+   000000000000
+   000001100000
+   000012321000
+   000011210000
+   000000100000
+   000000000000
+   ```
+  - Peninsulas are like islands but on the edge of the 'map'.
+   Example of a peninsula:
+   ```
+   984321000
+   544200000
+   321000000
+   100000000
+   ```
+  - Note that we don't actually care if the land is an island or peninsula. We care about the number of different lands.
+   
+Example input:
+```
+10 5
+
+4321000020
+3210000010
+2100000000
+2100000000
+1000010001
+```
+Output should be:
+```4```
+
 
 ## Functions and recursion
 
