@@ -415,7 +415,7 @@ Example:
   
   Your task is to simulate this game. The initial state of the surface should be hard-coded. On every turn the state of the     cells should be written to the console: 'X' for a living cell, ' ' for a dead cell.
 
-1. How many `islands and peninsulas` are there on the "map"?
+10. How many `islands and peninsulas` are there on the "map"?
 
 You are given a numbers `n`, `m` and a `nxm` matrix that consists of numbers `0 through 9`. Your task is to create a program that says `how many` islands and peninsulas are there. These are the 'rules':
 
