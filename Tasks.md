@@ -421,8 +421,8 @@ You are given a numbers `n`, `m` and a `nxm` matrix that consists of numbers `0 
 
   - 0 is water
   - 1-9 is the height of the ground
-  - Islands are pieces of land connected by different grounds
-   Example of an island:
+  - Islands are pieces of land connected by different grounds.
+  Example of an island:
    ```
    000000000000
    000001100000
@@ -432,7 +432,7 @@ You are given a numbers `n`, `m` and a `nxm` matrix that consists of numbers `0 
    000000000000
    ```
   - Peninsulas are like islands but on the edge of the 'map'.
-   Example of a peninsula:
+  Example of a peninsula:
    ```
    984321000
    544200000
