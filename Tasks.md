@@ -439,11 +439,11 @@ You are given a numbers `n`, `m` and a `nxm` matrix that consists of numbers `0 
    321000000
    100000000
    ```
-  - Note that we don't actually care if the land is an island or peninsula. We care about the number of different lands.
+  - Note that we don't actually care if the land is an island or peninsula. We care about the number of different connected lands.
    
 Example input:
 ```
-10 5
+5 10
 
 4321000020
 3210000010
