@@ -349,19 +349,19 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 ## Matrices
 
-1. Write a program which asks the user to enter n and k - the rows and columns count of a matrix. Then the program should ask for n*k numbers.
+1. Write a program which asks the user to enter `n` and `k` - the rows and columns count of a matrix. Then the program should ask for `n*k` numbers and fill a 2D array(matrix) with the given values.
 
 1. Write a function which takes a matrix and prints it on the console in the appropriate format.
 
-1. Write a function which takes a matrix and prints it on the console transposed.
+1. Write a function which takes a matrix and prints it on the console `transposed`.
 
-1. Write a program which reads a matrix from the console, then prints the sum of each row.
+1. Write a program which reads a matrix from the console, then prints the `sum` of `each row`.
 
-1. Write a program which reads a matrix from the console and prints the sum of the elements on the diagonal.
+1. Write a program which reads a matrix from the console and prints the `sum` of the `main diagonal elements`.
 
-1. Write a program which reads a matrix from the console and prints the average of each row.
+1. Write a program which reads a matrix from the console and prints the `average` of `each row`.
 
-1. Write a program which reads a matrix from the console and prints the elements of the 2x2 square in it that has the maximum sum.
+1. Write a program which reads a matrix from the console and prints the elements of the 2x2 submatrix in it that has the `maximum sum`.
 Example:
 
       ```    
@@ -371,10 +371,10 @@ Example:
       ```
     Results in  `9 11 1 7 `
 
-1. Write a program which asks the user for a number `n` and prints a matrix of numbers this this many rows as shown:
+1. Write a program which asks the user for a number `n` and generates (also prints) 4 `nxn` matrices in the pattern of the given example:
 
 
-    - For `n=4` (note how all columns are aligned!)
+    - For `n=4` (note how all the numbers are aligned!)
 
     a/ 
      ```
@@ -413,7 +413,9 @@ Example:
   - Evey living cell with two or three living neighbours stays alive for the next turn.
   - Every dead cell with exactly three living neighbours comes back to live.
   
-  Your task is to simulate this game. The initial state of the surface should be hard-coded. On every turn the state of the     cells should be written to the console: 'X' for a living cell, ' ' for a dead cell. 
+  Your task is to simulate this game. The initial state of the surface should be hard-coded. On every turn the state of the     cells should be written to the console: 'X' for a living cell, ' ' for a dead cell.
+ 
+1.TODO: Islands
 
 ## Functions and recursion
 
