@@ -443,7 +443,7 @@ You are given a numbers `n`, `m` and a `nxm` matrix that consists of numbers `0 
    
 Example input:
 ```
-5 10
+10 5
 
 4321000020
 3210000010
