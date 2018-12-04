@@ -357,7 +357,7 @@ This list contains a list of tasks for you to do at home or during uni-hours.
 
 1. Write a program which reads a matrix from the console, then prints the `sum` of `each row`.
 
-1. Write a program which reads a matrix from the console and prints the `sum` of the `main diagonal elements`.
+1. Write a program which reads a square matrix from the console and prints the `sum` of the `main diagonal elements`.
 
 1. Write a program which reads a matrix from the console and prints the `average` of `each row`.
 
