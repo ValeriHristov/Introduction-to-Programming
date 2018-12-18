@@ -485,6 +485,73 @@ Output should be:
 1. TODO: Karatsuba multiplication
 1. TODO: GCD via Euclid
 
+## Strings
+
+1. Write an implementation of:
+    - [`strlen`](http://www.cplusplus.com/reference/cstring/strlen/)
+    - [`strcmp`](http://www.cplusplus.com/reference/cstring/strcmp/)
+    - [`strcat`](http://www.cplusplus.com/reference/cstring/strcat/)
+    - [`strcpy`](http://www.cplusplus.com/reference/cstring/strcpy/)
+
+1. Write the following program:
+You are given two strings,  and , separated by a new line. Each string will consist of lower case Latin characters ('a'-'z').
+
+    - In the first line print two space-separated integers, representing the length of `a` and `b` respectively. 
+    - In the second line print the string produced by concatenating `a` and `b`. 
+    - In the third line print two strings separated by a space, `a'` and `b'`.`a'` and `b'` are the same as `a` and `b`, respectively, except that their first characters are swapped.
+
+    - Example input:
+    ```
+    abcd
+    ef
+    ```
+    - Output:
+    ```
+    4 2
+    abcdef
+    ebcd af
+    ```
+
+1. Write a function that counts the `words` in a given string.
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | This is random. | 3 |
+    | the answer to life is 42. | 6 |
+    | !-..- is not a word | 4|
+
+1. Write a function that checks whether a given word is a `palindrome`.
+
+    | Example input | Example output |
+    | ------------- | -------------- |
+    | kapak | 1 |
+    | traicho | 0 |
+    | civic | 1|
+
+1. Write a function that takes a string and prints out a char `histogram` of that string. Each string will consist of lower case Latin characters ('a'-'z').
+
+    - Input:
+    ```aaaabb```
+    - Output:
+    ```
+    a - 4
+    b - 2 
+    ```
+    
+    - Input:
+    ```randomness```
+    - Output:
+    ```
+    r - 1
+    a - 1
+    n - 2
+    d - 1
+    o - 1
+    m - 1
+    e - 1
+    s - 2
+    ```
+!!!NOTE: The order of the output is irrelevant. The only importance is the histogram accuracy
 
 ## Complex tasks
 1. Tisho wants to play [Bulls and cows](https://en.wikipedia.org/wiki/Bulls_and_Cows), but he is confused by the rules, so he needs ouр help. We have to write a program that reads two integer numbers `A` and `B` in the range \[0,9999\] from the console and prints back the number of bulls and cows for these numbers. Numbers smaller than 1000 we should pad with zeros, for example 19 should be interpreted as 0019.
